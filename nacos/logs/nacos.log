@@ -1,0 +1,692 @@
+2020-10-05 21:56:49,199 INFO Starting Nacos v1.2.1 on WXC with PID 34760 (D:\javaxuexi\Alibaba Nacos\nacos-server-1.2.1\nacos\target\nacos-server.jar started by wxc970304 in D:\javaxuexi\Alibaba Nacos\nacos-server-1.2.1\nacos\bin)
+
+2020-10-05 21:56:49,203 INFO The following profiles are active: standalone
+
+2020-10-05 21:56:50,853 INFO Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$c5c6f5bd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-10-05 21:56:50,942 INFO Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-10-05 21:56:50,946 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@7d900ecf' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-10-05 21:56:50,948 INFO Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$ea9b986f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-10-05 21:56:50,954 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2020-10-05 21:56:51,744 INFO Tomcat initialized with port(s): 8848 (http)
+
+2020-10-05 21:56:51,767 INFO Starting service [Tomcat]
+
+2020-10-05 21:56:51,767 INFO Starting Servlet Engine: Apache Tomcat/9.0.13
+
+2020-10-05 21:56:51,777 INFO The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\javaxuexi\Oracle\product\11.2.0\dbhome_1\bin;D:\javaxuexi\yelaoshiU2\yclj_gongju\;C:\Windows\System32;C:\Program Files (x86)\NetSarang\Xftp 6\;C:\Program Files\VanDyke Software\Clients\;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files\Java\jre1.8.0_121\bin;D:\javaxuexi\wanglaoshiU3\maven\apache-maven-3.3.9\bin;C:\ProgramData\Oracle\Java\javapath;D:\javaxuexi\wanglaoshiU2\MySQL\mysql-5.7.22-winx64\bin;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files\Java\jre1.8.0_121\bin;D:\javaxuexi\wanglaoshiU3\maven\apache-maven-3.3.9\bin;D:\javaxuexi\yelaoshiU2\Cmder\Cmder\cmder_mini;D:\javaxuexi\yelaoshiU2\Cmder\Cmder\Cmder\cmder_mini;D:\javaxuexi\git\Git\cmd;C:\Program Files\TortoiseSVN\bin;D:\javaxuexi\svn\SVN安装包和文档\SVN-Server\SVN-Server 文件存储\bin;D:\javaxuexi\node\;;D:\javaxuexi\vscode\Microsoft VS Code\bin;C:\Users\wxc970304\AppData\Roaming\npm;.]
+
+2020-10-05 21:56:51,844 INFO Initializing Spring embedded WebApplicationContext
+
+2020-10-05 21:56:51,844 INFO Root WebApplicationContext: initialization completed in 2601 ms
+
+2020-10-05 21:56:53,503 INFO Reflections took 40 ms to scan 1 urls, producing 6 keys and 24 values 
+
+2020-10-05 21:56:53,538 INFO Reflections took 3 ms to scan 1 urls, producing 2 keys and 12 values 
+
+2020-10-05 21:56:53,544 INFO Reflections took 3 ms to scan 1 urls, producing 3 keys and 15 values 
+
+2020-10-05 21:56:54,410 INFO Use Mysql as the driver
+
+2020-10-05 21:56:54,894 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2020-10-05 21:56:55,047 INFO Adding welcome page: class path resource [static/index.html]
+
+2020-10-05 21:56:55,332 INFO Creating filter chain: Ant [pattern='/**'], []
+
+2020-10-05 21:56:55,365 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5ad10c1a, org.springframework.security.web.context.SecurityContextPersistenceFilter@546ccad7, org.springframework.security.web.header.HeaderWriterFilter@3a62c01e, org.springframework.security.web.csrf.CsrfFilter@53f48368, org.springframework.security.web.authentication.logout.LogoutFilter@4264b240, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1623134f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@25748410, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6bb75258, org.springframework.security.web.session.SessionManagementFilter@5ce33a58, org.springframework.security.web.access.ExceptionTranslationFilter@3c435123]
+
+2020-10-05 21:56:55,483 INFO Exposing 2 endpoint(s) beneath base path '/actuator'
+
+2020-10-05 21:56:55,556 INFO Initializing ExecutorService 'taskScheduler'
+
+2020-10-05 21:56:55,721 INFO Tomcat started on port(s): 8848 (http) with context path '/nacos'
+
+2020-10-05 21:56:55,742 INFO Started Nacos in 7.718 seconds (JVM running for 8.247)
+
+2020-10-05 21:56:55,742 INFO Nacos logs files: D:\javaxuexi\Alibaba Nacos\nacos-server-1.2.1\nacos\logs\
+
+2020-10-05 21:56:55,744 INFO Nacos conf files: D:\javaxuexi\Alibaba Nacos\nacos-server-1.2.1\nacos\conf\
+
+2020-10-05 21:56:55,745 INFO Nacos data files: D:\javaxuexi\Alibaba Nacos\nacos-server-1.2.1\nacos\data\
+
+2020-10-05 21:56:55,746 INFO Nacos started successfully in stand alone mode.
+
+2020-10-05 21:56:55,894 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2020-10-05 21:56:55,894 INFO Initializing Servlet 'dispatcherServlet'
+
+2020-10-05 21:56:55,904 INFO Completed initialization in 9 ms
+
+2020-10-05 21:57:31,346 INFO listen config id:gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 21:57:31,347 INFO listen config id 2:gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 21:57:31,352 INFO listen config id:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 21:57:31,352 INFO listen config id 2:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 21:57:31,551 INFO listen config id:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 21:57:31,551 INFO listen config id 2:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 21:58:01,058 INFO listen config id:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 21:58:01,059 INFO listen config id 2:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 21:58:17,751 INFO listen config id:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 21:58:17,751 INFO listen config id 2:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 21:58:17,951 INFO listen config id:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 21:58:17,951 INFO listen config id 2:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 21:58:30,567 INFO listen config id:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 21:58:30,567 INFO listen config id 2:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 21:58:47,456 INFO listen config id:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 21:58:47,456 INFO listen config id 2:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 21:59:00,070 INFO listen config id:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 21:59:00,070 INFO listen config id 2:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 21:59:16,958 INFO listen config id:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 21:59:16,958 INFO listen config id 2:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 21:59:29,574 INFO listen config id:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 21:59:29,574 INFO listen config id 2:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 21:59:46,461 INFO listen config id:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 21:59:46,462 INFO listen config id 2:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 21:59:59,078 INFO listen config id:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 21:59:59,078 INFO listen config id 2:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:00:15,967 INFO listen config id:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:00:15,968 INFO listen config id 2:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:00:28,581 INFO listen config id:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:00:28,582 INFO listen config id 2:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:00:45,471 INFO listen config id:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:00:45,471 INFO listen config id 2:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:00:58,086 INFO listen config id:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:00:58,086 INFO listen config id 2:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:01:14,973 INFO listen config id:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:01:14,973 INFO listen config id 2:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:01:27,588 INFO listen config id:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:01:27,588 INFO listen config id 2:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:01:44,476 INFO listen config id:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:01:44,476 INFO listen config id 2:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:01:57,093 INFO listen config id:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:01:57,093 INFO listen config id 2:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:02:13,979 INFO listen config id:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:02:13,979 INFO listen config id 2:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:02:26,597 INFO listen config id:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:02:26,597 INFO listen config id 2:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:02:43,482 INFO listen config id:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:02:43,482 INFO listen config id 2:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:02:56,100 INFO listen config id:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:02:56,100 INFO listen config id 2:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:03:12,987 INFO listen config id:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:03:12,987 INFO listen config id 2:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:03:25,602 INFO listen config id:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:03:25,603 INFO listen config id 2:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:03:42,489 INFO listen config id:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:03:42,489 INFO listen config id 2:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:03:55,107 INFO listen config id:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:03:55,107 INFO listen config id 2:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:04:11,995 INFO listen config id:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:04:11,995 INFO listen config id 2:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:04:24,609 INFO listen config id:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:04:24,610 INFO listen config id 2:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:04:41,499 INFO listen config id:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:04:41,499 INFO listen config id 2:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:04:54,112 INFO listen config id:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:04:54,112 INFO listen config id 2:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:05:11,004 INFO listen config id:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:05:11,004 INFO listen config id 2:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:05:23,615 INFO listen config id:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:05:23,615 INFO listen config id 2:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:05:40,511 INFO listen config id:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:05:40,511 INFO listen config id 2:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:05:53,118 INFO listen config id:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:05:53,118 INFO listen config id 2:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:06:10,019 INFO listen config id:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:06:10,019 INFO listen config id 2:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:06:22,623 INFO listen config id:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:06:22,623 INFO listen config id 2:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:06:39,522 INFO listen config id:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:06:39,522 INFO listen config id 2:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:06:52,127 INFO listen config id:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:06:52,127 INFO listen config id 2:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:06:54,247 INFO [capacityManagement] start correct usage
+
+2020-10-05 22:06:54,264 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-10-05 22:06:54,405 WARN clearConfigHistory start
+
+2020-10-05 22:06:54,411 WARN clearConfigHistory, getBeforeStamp:2020-09-05 22:06:54.0, totalCount:7, pageSize:1000, removeTime:1
+
+2020-10-05 22:06:54,493 ERROR clearConfigHistory error
+
+org.springframework.jdbc.UncategorizedSQLException: PreparedStatementCallback; uncategorized SQLException for SQL [delete from his_config_info where gmt_modified < ? OFFSET 0 ROWS FETCH NEXT ? ROWS ONLY]; SQL state [null]; error code [0]; Borrow prepareStatement from pool failed; nested exception is org.apache.commons.dbcp.SQLNestedException: Borrow prepareStatement from pool failed
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:89)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.springframework.jdbc.core.JdbcTemplate.translateException(JdbcTemplate.java:1444)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:632)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:862)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:917)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:927)
+	at com.alibaba.nacos.config.server.utils.PaginationHelper.updateLimit(PaginationHelper.java:208)
+	at com.alibaba.nacos.config.server.service.PersistService.removeConfigHistory(PersistService.java:941)
+	at com.alibaba.nacos.config.server.service.PersistService$$FastClassBySpringCGLIB$$21ae4232.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.alibaba.nacos.config.server.service.PersistService$$EnhancerBySpringCGLIB$$41326cf8.removeConfigHistory(<generated>)
+	at com.alibaba.nacos.config.server.service.dump.DumpService.lambda$init$2(DumpService.java:100)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.commons.dbcp.SQLNestedException: Borrow prepareStatement from pool failed
+	at org.apache.commons.dbcp.PoolingConnection.prepareStatement(PoolingConnection.java:113)
+	at org.apache.commons.dbcp.DelegatingConnection.prepareStatement(DelegatingConnection.java:281)
+	at org.apache.commons.dbcp.PoolingDataSource$PoolGuardConnectionWrapper.prepareStatement(PoolingDataSource.java:313)
+	at org.springframework.jdbc.core.JdbcTemplate$SimplePreparedStatementCreator.createPreparedStatement(JdbcTemplate.java:1557)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:615)
+	... 21 common frames omitted
+Caused by: java.sql.SQLSyntaxErrorException: Syntax error: Encountered "OFFSET" at line 1, column 52.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.wrapInSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.ConnectionChild.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement20.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement30.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement40.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement42.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver42.newEmbedPreparedStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.prepareStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.prepareStatement(Unknown Source)
+	at org.apache.commons.dbcp.PoolingConnection.makeObject(PoolingConnection.java:285)
+	at org.apache.commons.pool.impl.GenericKeyedObjectPool.borrowObject(GenericKeyedObjectPool.java:1220)
+	at org.apache.commons.dbcp.PoolingConnection.prepareStatement(PoolingConnection.java:107)
+	... 25 common frames omitted
+Caused by: org.apache.derby.impl.jdbc.EmbedSQLException: Syntax error: Encountered "OFFSET" at line 1, column 52.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	... 42 common frames omitted
+Caused by: org.apache.derby.iapi.error.StandardException: Syntax error: Encountered "OFFSET" at line 1, column 52.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.sql.compile.ParserImpl.parseStatement(Unknown Source)
+	at org.apache.derby.impl.sql.GenericStatement.prepMinion(Unknown Source)
+	at org.apache.derby.impl.sql.GenericStatement.prepare(Unknown Source)
+	at org.apache.derby.impl.sql.conn.GenericLanguageConnectionContext.prepareInternalStatement(Unknown Source)
+	... 36 common frames omitted
+2020-10-05 22:07:09,024 INFO listen config id:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:07:09,024 INFO listen config id 2:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:07:21,631 INFO listen config id:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:07:21,631 INFO listen config id 2:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:07:38,527 INFO listen config id:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:07:38,527 INFO listen config id 2:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:07:51,137 INFO listen config id:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:07:51,138 INFO listen config id 2:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:08:08,030 INFO listen config id:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:08:08,030 INFO listen config id 2:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:08:20,641 INFO listen config id:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:08:20,641 INFO listen config id 2:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:08:37,531 INFO listen config id:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:08:37,531 INFO listen config id 2:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:08:50,143 INFO listen config id:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:08:50,143 INFO listen config id 2:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:09:07,035 INFO listen config id:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:09:07,035 INFO listen config id 2:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:09:19,647 INFO listen config id:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:09:19,647 INFO listen config id 2:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:09:36,538 INFO listen config id:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:09:36,538 INFO listen config id 2:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:09:49,156 INFO listen config id:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:09:49,157 INFO listen config id 2:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:10:06,041 INFO listen config id:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:10:06,041 INFO listen config id 2:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:10:18,658 INFO listen config id:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:10:18,658 INFO listen config id 2:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:10:35,544 INFO listen config id:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:10:35,544 INFO listen config id 2:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:10:48,161 INFO listen config id:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:10:48,161 INFO listen config id 2:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:11:05,046 INFO listen config id:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:11:05,046 INFO listen config id 2:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:11:17,668 INFO listen config id:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:11:17,668 INFO listen config id 2:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:11:34,547 INFO listen config id:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:11:34,547 INFO listen config id 2:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:11:47,173 INFO listen config id:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:11:47,173 INFO listen config id 2:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:12:04,051 INFO listen config id:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:12:04,051 INFO listen config id 2:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:12:16,676 INFO listen config id:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:12:16,676 INFO listen config id 2:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:12:22,270 INFO listen config id:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:12:22,271 INFO listen config id 2:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:12:22,469 INFO listen config id:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:12:22,470 INFO listen config id 2:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:12:46,180 INFO listen config id:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:12:46,180 INFO listen config id 2:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:12:51,974 INFO listen config id:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:12:51,974 INFO listen config id 2:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:13:15,682 INFO listen config id:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:13:15,682 INFO listen config id 2:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:13:21,478 INFO listen config id:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:13:21,478 INFO listen config id 2:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:13:45,184 INFO listen config id:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:13:45,184 INFO listen config id 2:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:13:50,979 INFO listen config id:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:13:50,980 INFO listen config id 2:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:14:14,687 INFO listen config id:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:14:14,687 INFO listen config id 2:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:14:20,482 INFO listen config id:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:14:20,482 INFO listen config id 2:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:14:44,190 INFO listen config id:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:14:44,190 INFO listen config id 2:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:14:49,985 INFO listen config id:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:14:49,985 INFO listen config id 2:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:15:13,693 INFO listen config id:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:15:13,693 INFO listen config id 2:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:15:19,487 INFO listen config id:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:15:19,487 INFO listen config id 2:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:15:42,535 INFO listen config id:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:15:42,535 INFO listen config id 2:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:15:42,734 INFO listen config id:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:15:42,734 INFO listen config id 2:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:15:43,195 INFO listen config id:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:15:43,195 INFO listen config id 2:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:16:12,238 INFO listen config id:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:16:12,238 INFO listen config id 2:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:16:12,697 INFO listen config id:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:16:12,697 INFO listen config id 2:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:16:41,743 INFO listen config id:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:16:41,743 INFO listen config id 2:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:16:42,202 INFO listen config id:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:16:42,202 INFO listen config id 2:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:16:54,267 INFO [capacityManagement] start correct usage
+
+2020-10-05 22:16:54,267 INFO [capacityManagement] end correct usage, cost: 0s
+
+2020-10-05 22:16:54,494 WARN clearConfigHistory start
+
+2020-10-05 22:16:54,497 WARN clearConfigHistory, getBeforeStamp:2020-09-05 22:16:54.0, totalCount:7, pageSize:1000, removeTime:1
+
+2020-10-05 22:16:54,502 ERROR clearConfigHistory error
+
+org.springframework.jdbc.UncategorizedSQLException: PreparedStatementCallback; uncategorized SQLException for SQL [delete from his_config_info where gmt_modified < ? OFFSET 0 ROWS FETCH NEXT ? ROWS ONLY]; SQL state [null]; error code [0]; Borrow prepareStatement from pool failed; nested exception is org.apache.commons.dbcp.SQLNestedException: Borrow prepareStatement from pool failed
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:89)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.springframework.jdbc.core.JdbcTemplate.translateException(JdbcTemplate.java:1444)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:632)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:862)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:917)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:927)
+	at com.alibaba.nacos.config.server.utils.PaginationHelper.updateLimit(PaginationHelper.java:208)
+	at com.alibaba.nacos.config.server.service.PersistService.removeConfigHistory(PersistService.java:941)
+	at com.alibaba.nacos.config.server.service.PersistService$$FastClassBySpringCGLIB$$21ae4232.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.alibaba.nacos.config.server.service.PersistService$$EnhancerBySpringCGLIB$$41326cf8.removeConfigHistory(<generated>)
+	at com.alibaba.nacos.config.server.service.dump.DumpService.lambda$init$2(DumpService.java:100)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.commons.dbcp.SQLNestedException: Borrow prepareStatement from pool failed
+	at org.apache.commons.dbcp.PoolingConnection.prepareStatement(PoolingConnection.java:113)
+	at org.apache.commons.dbcp.DelegatingConnection.prepareStatement(DelegatingConnection.java:281)
+	at org.apache.commons.dbcp.PoolingDataSource$PoolGuardConnectionWrapper.prepareStatement(PoolingDataSource.java:313)
+	at org.springframework.jdbc.core.JdbcTemplate$SimplePreparedStatementCreator.createPreparedStatement(JdbcTemplate.java:1557)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:615)
+	... 21 common frames omitted
+Caused by: java.sql.SQLSyntaxErrorException: Syntax error: Encountered "OFFSET" at line 1, column 52.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.wrapInSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.ConnectionChild.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement20.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement30.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement40.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement42.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver42.newEmbedPreparedStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.prepareStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.prepareStatement(Unknown Source)
+	at org.apache.commons.dbcp.PoolingConnection.makeObject(PoolingConnection.java:285)
+	at org.apache.commons.pool.impl.GenericKeyedObjectPool.borrowObject(GenericKeyedObjectPool.java:1220)
+	at org.apache.commons.dbcp.PoolingConnection.prepareStatement(PoolingConnection.java:107)
+	... 25 common frames omitted
+Caused by: org.apache.derby.impl.jdbc.EmbedSQLException: Syntax error: Encountered "OFFSET" at line 1, column 52.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	... 42 common frames omitted
+Caused by: org.apache.derby.iapi.error.StandardException: Syntax error: Encountered "OFFSET" at line 1, column 52.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.sql.compile.ParserImpl.parseStatement(Unknown Source)
+	at org.apache.derby.impl.sql.GenericStatement.prepMinion(Unknown Source)
+	at org.apache.derby.impl.sql.GenericStatement.prepare(Unknown Source)
+	at org.apache.derby.impl.sql.conn.GenericLanguageConnectionContext.prepareInternalStatement(Unknown Source)
+	... 36 common frames omitted
+2020-10-05 22:17:11,245 INFO listen config id:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:17:11,245 INFO listen config id 2:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:17:11,705 INFO listen config id:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:17:11,705 INFO listen config id 2:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:17:40,749 INFO listen config id:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:17:40,750 INFO listen config id 2:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:17:41,208 INFO listen config id:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:17:41,208 INFO listen config id 2:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:18:10,254 INFO listen config id:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:18:10,254 INFO listen config id 2:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:18:10,711 INFO listen config id:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:18:10,711 INFO listen config id 2:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:18:39,760 INFO listen config id:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:18:39,761 INFO listen config id 2:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:18:40,212 INFO listen config id:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:18:40,212 INFO listen config id 2:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:19:09,262 INFO listen config id:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:19:09,262 INFO listen config id 2:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:19:09,714 INFO listen config id:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:19:09,714 INFO listen config id 2:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:19:38,764 INFO listen config id:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:19:38,764 INFO listen config id 2:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:19:39,217 INFO listen config id:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:19:39,217 INFO listen config id 2:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:20:08,266 INFO listen config id:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:20:08,266 INFO listen config id 2:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:20:08,718 INFO listen config id:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:20:08,718 INFO listen config id 2:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:20:37,770 INFO listen config id:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:20:37,771 INFO listen config id 2:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:20:38,221 INFO listen config id:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:20:38,221 INFO listen config id 2:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:21:07,274 INFO listen config id:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:21:07,274 INFO listen config id 2:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:21:07,724 INFO listen config id:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:21:07,724 INFO listen config id 2:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:21:36,777 INFO listen config id:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:21:36,777 INFO listen config id 2:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:21:37,227 INFO listen config id:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:21:37,227 INFO listen config id 2:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:22:06,283 INFO listen config id:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:22:06,284 INFO listen config id 2:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:22:06,729 INFO listen config id:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:22:06,729 INFO listen config id 2:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:22:35,789 INFO listen config id:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:22:35,789 INFO listen config id 2:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:22:36,232 INFO listen config id:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:22:36,232 INFO listen config id 2:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:23:05,294 INFO listen config id:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:23:05,294 INFO listen config id 2:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:23:05,735 INFO listen config id:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:23:05,735 INFO listen config id 2:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:23:34,797 INFO listen config id:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:23:34,797 INFO listen config id 2:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:23:35,238 INFO listen config id:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:23:35,238 INFO listen config id 2:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:24:04,300 INFO listen config id:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:24:04,300 INFO listen config id 2:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:24:04,741 INFO listen config id:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:24:04,741 INFO listen config id 2:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:24:33,806 INFO listen config id:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:24:33,807 INFO listen config id 2:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:24:34,244 INFO listen config id:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:24:34,244 INFO listen config id 2:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:25:03,311 INFO listen config id:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:25:03,311 INFO listen config id 2:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:25:03,747 INFO listen config id:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:25:03,747 INFO listen config id 2:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:25:32,818 INFO listen config id:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:25:32,818 INFO listen config id 2:productDEFAULT_GROUPproduct.propertiesDEFAULT_GROUP
+
+2020-10-05 22:25:33,249 INFO listen config id:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+
+2020-10-05 22:25:33,250 INFO listen config id 2:gatewayDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796gateway.propertiesDEFAULT_GROUPd2be7171-d3ae-4e06-a2b8-08287a093796
+

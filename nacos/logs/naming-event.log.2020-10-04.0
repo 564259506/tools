@@ -1,0 +1,64 @@
+2020-10-04 11:46:16,044 INFO DEFAULT_GROUP@@gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.216.1:88:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-10-04 11:46:16,046 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway, ips: 192.168.216.1:88_true,
+
+2020-10-04 11:54:21,096 INFO {POS} {IP-DISABLED} valid: 192.168.216.1:88@DEFAULT@DEFAULT_GROUP@@gateway, region: unknown, msg: client timeout after 15000, last beat: 1601783641443
+
+2020-10-04 11:54:36,184 INFO DEFAULT_GROUP@@gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.216.1:88:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-10-04 11:54:36,184 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway, ips: 
+
+2020-10-04 11:55:27,103 INFO DEFAULT_GROUP@@gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.216.1:88:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-10-04 11:55:27,103 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway, ips: 192.168.216.1:88_true,
+
+2020-10-04 12:18:48,778 INFO DEFAULT_GROUP@@product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.216.1:1000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-10-04 12:18:48,778 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@product, ips: 192.168.216.1:1000_true,
+
+2020-10-04 12:20:11,437 INFO {POS} {IP-DISABLED} valid: 192.168.216.1:88@DEFAULT@DEFAULT_GROUP@@gateway, region: unknown, msg: client timeout after 15000, last beat: 1601785193321
+
+2020-10-04 12:20:26,442 INFO DEFAULT_GROUP@@gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.216.1:88:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-10-04 12:20:26,442 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway, ips: 
+
+2020-10-04 12:20:38,803 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@product, ips: 192.168.216.1:1000_true,
+
+2020-10-04 12:21:35,517 INFO DEFAULT_GROUP@@gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.216.1:88:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-10-04 12:21:35,517 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway, ips: 192.168.216.1:88_true,
+
+2020-10-04 15:59:24,592 INFO {POS} {IP-DISABLED} valid: 192.168.216.1:88@DEFAULT@DEFAULT_GROUP@@gateway, region: unknown, msg: client timeout after 15000, last beat: 1601789278172
+
+2020-10-04 15:59:24,592 INFO {POS} {IP-DISABLED} valid: 192.168.216.1:1000@DEFAULT@DEFAULT_GROUP@@product, region: unknown, msg: client timeout after 15000, last beat: 1601789281562
+
+2020-10-04 15:59:24,598 INFO DEFAULT_GROUP@@product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.216.1:1000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-10-04 15:59:24,598 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@product, ips: 
+
+2020-10-04 15:59:24,613 INFO DEFAULT_GROUP@@gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.216.1:88:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-10-04 15:59:24,613 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway, ips: 
+
+2020-10-04 15:59:25,581 INFO DEFAULT_GROUP@@gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.216.1:88:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-10-04 15:59:25,581 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway, ips: 192.168.216.1:88_true,
+
+2020-10-04 15:59:28,969 INFO DEFAULT_GROUP@@product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.216.1:1000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-10-04 15:59:28,969 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@product, ips: 192.168.216.1:1000_true,
+
+2020-10-04 16:17:18,367 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@product, ips: 192.168.216.1:1000_true,
+
+2020-10-04 16:37:15,002 INFO {POS} {IP-DISABLED} valid: 192.168.216.1:88@DEFAULT@DEFAULT_GROUP@@gateway, region: unknown, msg: client timeout after 15000, last beat: 1601800616965
+
+2020-10-04 16:37:15,002 INFO {POS} {IP-DISABLED} valid: 192.168.216.1:1000@DEFAULT@DEFAULT_GROUP@@product, region: unknown, msg: client timeout after 15000, last beat: 1601800619166
+
+2020-10-04 16:37:30,008 INFO DEFAULT_GROUP@@product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.216.1:1000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-10-04 16:37:30,008 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@product, ips: 
+
+2020-10-04 16:37:30,008 INFO DEFAULT_GROUP@@gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.216.1:88:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2020-10-04 16:37:30,008 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway, ips: 
+

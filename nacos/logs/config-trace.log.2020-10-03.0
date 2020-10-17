@@ -1,0 +1,6 @@
+2020-10-03 16:32:47,648|192.168.216.1|nacos-config-client-test.yaml|cs_GROUP|null|null|1601713967648|192.168.216.1|persist|remove|-1|null
+2020-10-03 16:32:47,662|192.168.216.1|nacos-config-client-test.yaml|cs_GROUP|null|null|1601713967648|192.168.216.1|notify|ok|12|192.168.216.1:8848
+2020-10-03 16:32:47,678|192.168.216.1|nacos-config-client-test.yaml|cs_GROUP|null|null|1601713967648|192.168.216.1|dump|remove-ok|30|0
+2020-10-03 16:32:50,375|192.168.216.1|nacos-config-client-dev.yaml|DEFAULT_GROUP|null|null|1601713970375|192.168.216.1|persist|remove|-1|null
+2020-10-03 16:32:50,380|192.168.216.1|nacos-config-client-dev.yaml|DEFAULT_GROUP|null|null|1601713970375|192.168.216.1|notify|ok|5|192.168.216.1:8848
+2020-10-03 16:32:50,398|192.168.216.1|nacos-config-client-dev.yaml|DEFAULT_GROUP|null|null|1601713970375|192.168.216.1|dump|remove-ok|23|0

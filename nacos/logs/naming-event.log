@@ -1,0 +1,12 @@
+2020-10-05 21:57:31,326 INFO DEFAULT_GROUP@@gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.216.1:88:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-10-05 21:57:31,329 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway, ips: 192.168.216.1:88_true,
+
+2020-10-05 21:58:16,260 INFO DEFAULT_GROUP@@product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.216.1:1000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2020-10-05 21:58:16,260 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@product, ips: 192.168.216.1:1000_true,
+
+2020-10-05 22:12:20,770 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@product, ips: 192.168.216.1:1000_true,
+
+2020-10-05 22:15:41,046 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@product, ips: 192.168.216.1:1000_true,
+
